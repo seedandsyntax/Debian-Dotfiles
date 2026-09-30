@@ -1,0 +1,21 @@
+ 1451  sudo apt update && sudo apt install ripgrep
+ 1688  sudo apt install && sudo apt upgrade
+ 1726  sudo apt install build-essential tclsh docbook-xsl docbook-xml
+ 1734  sudo apt install libsasl2-dev
+ 1739  sudo apt install isync msmtp pass curl ca-certificates
+ 1755  sudo apt install cargo
+ 1757  sudo apt install librust-alsa-sys-dev libssl-dev libxcb1-dev
+ 1792  sudo apt install notmuch
+ 1819  sudo apt install cups cups-bsd
+ 1897  sudo apt install         char c;
+ 1898  sudo apt install libc6-dev
+ 1899  sudo apt install clang
+ 1739  sudo apt install isync msmtp pass curl ca-certificates
+ 1759  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 1917  curl dict://dict.org:/d:hello
+ 1918  curl dict://dict.org:/d:hello | less
+ 1919  curl dict://dict.org:/d:conjecture | less
+ 1920  curl dict://dict.org:/d:conconcon | less
+ 1930  curl cheat.sh/bash
+ 1939  cheat curl
+ 2008  history | grep -E "curl" >> ~/apt_history.txt

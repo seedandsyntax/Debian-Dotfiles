@@ -1,0 +1,18 @@
+CompileFlags:
+  Add: 
+    - -ferror-limit=0
+    - -I/home/seedandsyntax/linux/drivers/staging/rtl8723bs/include
+    - -I/home/seedandsyntax/linux/drivers/staging/media/
+    - -I/usr/include/
+    - -I/usr/include/x86_64-linux-gnu/ 
+    - -I/usr/lib/gcc/x86_64-linux-gnu/14/include/
+  Remove:
+    - -fconserve-stack
+    - -fmin-function-alignment=*
+    - -fno-allow-store-data-races
+    - -fno-ipa-cp-clone
+    - -fno-partial-inlining
+    - -mindirect-branch=*
+    - -mindirect-branch-register
+    - -mpreferred-stack-boundary=*
+    - -mstack-protector-guard-*

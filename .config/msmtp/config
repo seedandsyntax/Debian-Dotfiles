@@ -1,0 +1,11 @@
+account seedandsyntax@gmail.com
+host smtp.gmail.com
+port 465
+from seedandsyntax@gmail.com
+user seedandsyntax@gmail.com
+passwordeval "cat ~/Documents/seedandsyntax-gmail-passes-apps/neomutt-pass.txt"
+auth on
+tls on
+tls_trust_file	/etc/ssl/certs/ca-certificates.crt
+logfile /home/seedandsyntax/.local/state/msmtp/msmtp.log
+tls_starttls off

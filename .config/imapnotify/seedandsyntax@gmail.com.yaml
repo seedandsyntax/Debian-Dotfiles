@@ -1,0 +1,15 @@
+{
+    "host": "imap.gmail.com",
+    "port": 993,
+    "tls": true,
+    "tlsOptions": {
+            "rejectUnauthorized": false
+    },
+    "username": "seedandsyntax@gmail.com",
+    "password": "",
+    "passwordCmd": "pass seedandsyntax@gmail.com",
+    "onNewMail": "mailsync",
+    "onNewMailPost": "",
+    "boxes": [ "INBOX" ]
+}
+

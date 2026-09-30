@@ -1,0 +1,54 @@
+# Colors (my own choice lmao)
+
+# Default Colors
+[colors.primary]
+background = "#0D0029"
+foreground = "#DFE3F1"
+bright_foreground = "#DFE3F1"
+
+[colors.selection]
+background = "#043421"
+foreground = "#DFE3F1"
+
+
+# Normal colors
+[colors.normal]
+black = "#212733"
+red = "#f08778"
+green = "#53bf97"
+yellow = "#fdcc60"
+blue = "#60b8d6"
+magenta = "#ec7171"
+cyan = "#98e6ca"
+white = "#fafafa"
+# white = "#043421"
+
+# Bright colors
+[colors.bright]
+black = "#686868"
+red = "#f58c7d"
+green = "#58c49c"
+yellow = "#ffd165"
+blue = "#65bddb"
+magenta = "#f17676"
+cyan = "#9debcf"
+white = "#ffffff"
+# white = "#043421"
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "Gallant12"
+style = "Small"
+
+# Force Alacritty to allocate a wide double-cell grid for icons
+[font.glyph_offset]
+x = 0
+y = 0
+
+# Adjust this if icons bleed into your file name strings
+[font.offset]
+x = 0
+y = 0
+
